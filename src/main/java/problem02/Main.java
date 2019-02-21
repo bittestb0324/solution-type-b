@@ -11,7 +11,20 @@ public class Main {
 			String arith = tokens[1];
 			int num1 = Integer.parseInt(tokens[0]);
 			int num2 = Integer.parseInt(tokens[2]);
-
+			
+			if(arith.equals("+")) {
+				System.out.println(num1+num2);
+			}
+			if(arith.equals("-")) {
+				System.out.println(num1-num2);
+			}
+			if(arith.equals("*")) {
+				System.out.println(num1*num2);
+			}
+			if(arith.equals("/")) {
+				System.out.println(num1/num2);
+			}
+			
 			
 			// num1, num2, arith 세 개의 변수와 getInstance 메소드를 사용하여
 			// 문제의 결과화면에 맞게 출력하는 계산기 나머지 코드를 아래에 완성 하십시오.
@@ -23,8 +36,6 @@ public class Main {
 	}
 	
 	public static Arithmetic getInstance(String arith) {
-		
-		// 메소드 구현을 완성 하십시오.
 		
 		return null;
 	}
